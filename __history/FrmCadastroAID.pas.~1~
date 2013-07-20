@@ -1,0 +1,24 @@
+unit FrmCadastroAID;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, frmModelo, StdCtrls, Buttons, ExtCtrls;
+
+type
+  TFrmModelos1 = class(TFrmModelos)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmModelos1: TFrmModelos1;
+
+implementation
+
+{$R *.dfm}
+
+end.

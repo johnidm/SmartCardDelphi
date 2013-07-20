@@ -1,0 +1,23 @@
+inherited FrmModelos1: TFrmModelos1
+  Caption = 'FrmModelos1'
+  PixelsPerInch = 96
+  TextHeight = 13
+  inherited Panel1: TPanel
+    inherited Panel6: TPanel
+      BevelKind = bkNone
+      ExplicitWidth = 489
+      object PageControl1: TPageControl
+        Left = 5
+        Top = 5
+        Width = 479
+        Height = 201
+        ActivePage = TabSheet1
+        Align = alClient
+        TabOrder = 0
+        object TabSheet1: TTabSheet
+          Caption = 'AID'
+        end
+      end
+    end
+  end
+end

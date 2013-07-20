@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010/04/21 15:54:07.075.pas,C:\Users\Johni\Documents\RAD Studio\Projects\Unit1.pas=C:\Users\Johni\My Java Card\Aplicativos Java Card\untPrincipal.pas</Transaction>
+    <Transaction>2010/04/21 15:54:07.075.dfm,C:\Users\Johni\Documents\RAD Studio\Projects\Unit1.dfm=C:\Users\Johni\My Java Card\Aplicativos Java Card\untPrincipal.dfm</Transaction>
+    <Transaction>2010/04/21 15:54:56.895.dproj,C:\Users\Johni\Documents\RAD Studio\Projects\Project1.dproj=C:\Users\Johni\My Java Card\Aplicativos Java Card\EspertoSmartCard.dproj</Transaction>
+    <Transaction>2010/04/24 15:53:40.790.pas,C:\Users\Johni\My Java Card\Aplicativos Java Card\Unit1.pas=C:\Users\Johni\My Java Card\Aplicativos Java Card\frmModelo.pas</Transaction>
+    <Transaction>2010/04/24 15:53:40.790.dfm,C:\Users\Johni\My Java Card\Aplicativos Java Card\Unit1.dfm=C:\Users\Johni\My Java Card\Aplicativos Java Card\frmModelo.dfm</Transaction>
+    <Transaction>2010/04/24 16:17:21.921.pas,C:\Users\Johni\My Java Card\Aplicativos Java Card\Unit1.pas=C:\Users\Johni\My Java Card\Aplicativos Java Card\FrmCadastroAID.pas</Transaction>
+    <Transaction>2010/04/24 16:17:21.921.dfm,C:\Users\Johni\My Java Card\Aplicativos Java Card\Unit1.dfm=C:\Users\Johni\My Java Card\Aplicativos Java Card\FrmCadastroAID.dfm</Transaction>
+    <Transaction>2010/04/24 16:26:32.203.pas,C:\Users\Johni\My Java Card\Aplicativos Java Card\FrmCadastroAID.pas=C:\Users\Johni\My Java Card\Aplicativos Java Card\UntCadastroAID.pas</Transaction>
+    <Transaction>2010/04/24 16:26:32.203.dfm,C:\Users\Johni\My Java Card\Aplicativos Java Card\FrmCadastroAID.dfm=C:\Users\Johni\My Java Card\Aplicativos Java Card\UntCadastroAID.dfm</Transaction>
+    <Transaction>2010/04/24 16:31:29.338.pas,C:\Users\Johni\My Java Card\Aplicativos Java Card\Unit1.pas=C:\Users\Johni\My Java Card\Aplicativos Java Card\ISCFuncoes.pas</Transaction>
+    <Transaction>2010/04/24 16:47:41.358.pas,C:\Users\Johni\My Java Card\Aplicativos Java Card\Unit1.pas=C:\Users\Johni\My Java Card\Aplicativos Java Card\ISCConstantes.pas</Transaction>
+    <Transaction>2010/04/24 17:19:11.973.pas,C:\Users\Johni\My Java Card\Aplicativos Java Card\Unit1.pas=C:\Users\Johni\My Java Card\Aplicativos Java Card\UntCadastroGeral.pas</Transaction>
+    <Transaction>2010/04/24 17:19:11.973.dfm,C:\Users\Johni\My Java Card\Aplicativos Java Card\Unit1.dfm=C:\Users\Johni\My Java Card\Aplicativos Java Card\UntCadastroGeral.dfm</Transaction>
+    <Transaction>2010/04/24 17:25:08.501.pas,C:\Users\Johni\My Java Card\Aplicativos Java Card\Unit1.pas=C:\Users\Johni\My Java Card\Aplicativos Java Card\UntDtmGeral.pas</Transaction>
+    <Transaction>2010/04/24 17:25:08.501.dfm,C:\Users\Johni\My Java Card\Aplicativos Java Card\Unit1.dfm=C:\Users\Johni\My Java Card\Aplicativos Java Card\UntDtmGeral.dfm</Transaction>
+    <Transaction>2010/04/24 17:29:32.129.pas,C:\Users\Johni\My Java Card\Aplicativos Java Card\Unit1.pas=C:\Users\Johni\My Java Card\Aplicativos Java Card\ISCClasses.pas</Transaction>
+    <Transaction>2010/04/24 17:54:43.972.pas,C:\Users\Johni\My Java Card\Aplicativos Java Card\Unit1.pas=C:\Users\Johni\My Java Card\Aplicativos Java Card\ISCGlobal.pas</Transaction>
+  </Transactions>
+</BorlandProject>

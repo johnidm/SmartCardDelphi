@@ -1,0 +1,70 @@
+object FrmModelos: TFrmModelos
+  Left = 0
+  Top = 0
+  Caption = 'FrmModelos'
+  ClientHeight = 258
+  ClientWidth = 559
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 559
+    Height = 258
+    Align = alClient
+    BevelOuter = bvNone
+    TabOrder = 0
+    ExplicitLeft = 80
+    ExplicitTop = 48
+    ExplicitWidth = 185
+    ExplicitHeight = 41
+    object Panel2: TPanel
+      Left = 0
+      Top = 208
+      Width = 559
+      Height = 50
+      Align = alBottom
+      BevelOuter = bvNone
+      BorderWidth = 2
+      TabOrder = 0
+      ExplicitTop = 200
+      ExplicitWidth = 470
+      object Bevel1: TBevel
+        Left = 2
+        Top = 2
+        Width = 555
+        Height = 1
+        Align = alTop
+        Shape = bsTopLine
+        ExplicitLeft = 64
+        ExplicitTop = 16
+        ExplicitWidth = 50
+      end
+      object Panel3: TPanel
+        Left = 288
+        Top = 3
+        Width = 269
+        Height = 45
+        Align = alRight
+        BevelOuter = bvNone
+        TabOrder = 0
+        ExplicitLeft = 272
+        object BtnFechar: TBitBtn
+          Left = 176
+          Top = 9
+          Width = 90
+          Height = 27
+          Caption = '&Fechar'
+          TabOrder = 0
+        end
+      end
+    end
+  end
+end

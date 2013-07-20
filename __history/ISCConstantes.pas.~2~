@@ -1,0 +1,10 @@
+unit ISCConstantes;
+
+interface
+
+const
+  DIRETORIO = 'c:\'
+
+implementation
+
+end.

@@ -1,0 +1,16 @@
+program EspertoSmartCard;
+
+uses
+  Forms,
+  untPrincipal in 'untPrincipal.pas' {FrmPrincipal},
+  frmModelo in 'frmModelo.pas' {FrmModelos},
+  UntCadastroAID in 'UntCadastroAID.pas' {FrmCadastroAID};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFrmPrincipal, FrmPrincipal);
+  Application.Run;
+end.

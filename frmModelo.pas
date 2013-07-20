@@ -1,0 +1,48 @@
+unit frmModelo;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, ExtCtrls, StdCtrls, Buttons, ComCtrls;
+
+type
+  TFrmModelos = class(TForm)
+    Panel1: TPanel;
+    Panel2: TPanel;
+    Bevel1: TBevel;
+    Panel3: TPanel;
+    BtnFechar: TBitBtn;
+    SpeedButton1: TSpeedButton;
+    Panel4: TPanel;
+    Panel5: TPanel;
+    Panel6: TPanel;
+    BtnSalvar: TBitBtn;
+    procedure BtnFecharClick(Sender: TObject);
+    procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmModelos: TFrmModelos;
+
+implementation
+
+{$R *.dfm}
+
+procedure TFrmModelos.BtnFecharClick(Sender: TObject);
+begin
+  Close;
+end;
+
+procedure TFrmModelos.FormKeyDown(Sender: TObject; var Key: Word;
+  Shift: TShiftState);
+begin
+  if Key = VK_RETURN then
+    SelectNext(ActiveControl, TRUE, TRUE);
+end;
+
+end.

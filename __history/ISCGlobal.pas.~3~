@@ -1,0 +1,10 @@
+unit ISCGlobal;
+
+interface
+
+var
+  APDU: TAPDU;
+
+implementation
+
+end.

@@ -1,0 +1,14 @@
+unit ISCConstantes;
+
+interface
+
+const
+  DIRETORIO = 'c:\';
+  ARQUIVO_CONFIGURACAO = DIRETORIO + 'EspertoSmartCard.ini';
+  SECAO_AID = 'AID';
+  CHAVE_AID_PACOTE = 'AIDPacote';
+  CHAVE_AID_APPLET = 'AIDPAcote';
+
+implementation
+
+end.

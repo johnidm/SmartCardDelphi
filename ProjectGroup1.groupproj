@@ -1,0 +1,44 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{7eabd0ec-5e04-4ab5-87d8-32eed42db3d6}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Projects Include="C:\Program Files\CodeGear\RAD Studio\5.0\lib\pcsccomp\MainPCSC.dproj" />
+    <Projects Include="EspertoSmartCard.dproj" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+  <BorlandProject xmlns=""> <Default.Personality> </Default.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="MainPCSC">
+    <MSBuild Projects="C:\Program Files\CodeGear\RAD Studio\5.0\lib\pcsccomp\MainPCSC.dproj" Targets="" />
+  </Target>
+  <Target Name="MainPCSC:Clean">
+    <MSBuild Projects="C:\Program Files\CodeGear\RAD Studio\5.0\lib\pcsccomp\MainPCSC.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="MainPCSC:Make">
+    <MSBuild Projects="C:\Program Files\CodeGear\RAD Studio\5.0\lib\pcsccomp\MainPCSC.dproj" Targets="Make" />
+  </Target>
+  <Target Name="EspertoSmartCard">
+    <MSBuild Projects="EspertoSmartCard.dproj" Targets="" />
+  </Target>
+  <Target Name="EspertoSmartCard:Clean">
+    <MSBuild Projects="EspertoSmartCard.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="EspertoSmartCard:Make">
+    <MSBuild Projects="EspertoSmartCard.dproj" Targets="Make" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="MainPCSC;EspertoSmartCard" />
+  </Target>
+  <Target Name="Clean">
+    <CallTarget Targets="MainPCSC:Clean;EspertoSmartCard:Clean" />
+  </Target>
+  <Target Name="Make">
+    <CallTarget Targets="MainPCSC:Make;EspertoSmartCard:Make" />
+  </Target>
+  <Import Condition="Exists('$(MSBuildBinPath)\Borland.Group.Targets')" Project="$(MSBuildBinPath)\Borland.Group.Targets" />
+</Project>
